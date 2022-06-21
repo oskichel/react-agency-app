@@ -1,0 +1,42 @@
+.header {
+    height: 80px;
+    padding: 16px 0;
+    box-sizing: border-box;
+    background-color: #28293E;
+    display: flex;
+    justify-content: center;
+    column-gap: 185px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    column-gap: 120px;
+}
+
+.menu {
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 16px;
+}
+
+
+.button {
+    height: 48px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: transparent; 
+    border: 1px solid #ffffff2d;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: 'Epilogue Black', sans-serif;
+    font-size: 14px;
+}
+
+.button:hover {
+    border: 2px solid #90E149;
+    border-radius: 1px;
+}

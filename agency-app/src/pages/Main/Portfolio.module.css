@@ -1,0 +1,28 @@
+.color{
+    background-color: #28293E;
+}
+
+.section {
+    height: 320px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 76px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.title{
+    margin: 0;
+    font-family: 'Epilogue-Extra-Bold', sans-serif;
+    font-weight: 100;
+    font-size: 72px;
+    color: #FFFFFF;
+}
+
+.text {
+    width: 570px;
+    margin: 50px auto 0;
+    font-family: 'Epilogue Regular', sans-serif;
+    font-size: 16px;
+    color: #ffffffbe;
+}
