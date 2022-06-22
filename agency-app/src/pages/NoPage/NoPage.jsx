@@ -1,10 +1,11 @@
 import React from "react";
+import st from "./NoPage.module.css";
 
 function NoPage() {
 
 
     return (
-        <div>
+        <div className={st.wrap}>
             NoPage is not found.
         </div>
     );
