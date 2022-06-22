@@ -1,1 +1,68 @@
+.wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px 30px;
+}
 
+.filter_menu {
+    width: 563px;
+    margin: 80px auto 75px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    font-size: 16px;
+}
+
+.filter_item {
+    height: 21px;
+    color: #391400A3;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+}
+
+.filter_item:hover {
+    cursor: pointer;
+}
+
+.card {
+    width: 370px;
+    height: 416px;
+    box-sizing: border-box;
+}
+
+.card:active {
+    border-radius: 13px;
+    outline: 7px solid #90E149;
+}
+
+.position {
+    width: 300px;
+    position: relative;
+    bottom: 160px;
+    left: 48px;
+}
+
+.name {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.filter {
+    width: 102px;
+    height: 38px;
+    margin-bottom: 24px;
+    border-radius: 19px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-family: Epilogue-Regular, sans-serif;
+    font-size: 16px;
+}
+
+.filter:hover {
+    cursor: pointer;
+}

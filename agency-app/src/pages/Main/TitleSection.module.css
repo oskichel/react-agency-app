@@ -4,9 +4,9 @@
 
 .section {
     height: 320px;
-    max-width: 1400px;
+    max-width: 1440px;
     margin: 0 auto;
-    padding: 76px 0;
+    padding: 82px 0 58px 0;
     box-sizing: border-box;
     text-align: center;
 }
@@ -16,13 +16,14 @@
     font-family: 'Epilogue-Extra-Bold', sans-serif;
     font-weight: 100;
     font-size: 72px;
+    letter-spacing: -2px;
     color: #FFFFFF;
 }
 
 .text {
     width: 570px;
-    margin: 50px auto 0;
+    margin: 34px auto 0;
     font-family: 'Epilogue Regular', sans-serif;
     font-size: 16px;
-    color: #ffffffbe;
+    color: #ffffff94;
 }

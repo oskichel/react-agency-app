@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import React from "react";
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 import st from './Layout.module.css';
 
 const Layout = () => {
@@ -10,6 +11,7 @@ const Layout = () => {
             <main className={st.wrap}>
                 <Outlet />
             </main>
+            <Footer />
         </>
 
     )

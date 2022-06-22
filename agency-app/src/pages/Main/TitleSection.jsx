@@ -1,7 +1,7 @@
 import React from "react";
-import st from './Portfolio.module.css';
+import st from './TitleSection.module.css';
 
-function Portfolio() {
+function TitleSection() {
 
 
     return (
@@ -14,4 +14,4 @@ function Portfolio() {
     );
 }
 
-export default Portfolio;
+export default TitleSection;
