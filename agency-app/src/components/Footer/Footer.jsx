@@ -6,7 +6,6 @@ function Footer() {
 
     return (
         <div className= {st.footer}>
-            Footer
         </div>
     );
 }

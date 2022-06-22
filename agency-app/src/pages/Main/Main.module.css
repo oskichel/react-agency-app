@@ -66,3 +66,62 @@
 .filter:hover {
     cursor: pointer;
 }
+
+.select_menu {
+    display: none;
+}
+
+.loader {
+    width: 170px;
+    height: 48px;
+    margin: 80px auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 9px #39140014;
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Epilogue-Black,sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+@media (max-width: 1040px) {
+    .card {
+        width: 329px;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+
+    .filter_menu {
+        display: none;
+    }
+
+    .select_menu {
+        display: block;
+        width: 329px;
+        height: 48px;
+        margin: 28px auto 48px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #F3D1BF;
+        border-radius: 6px;
+        font-size: 16px;
+        color: #391400A3;
+        padding-left: 16px;
+    }
+
+    .select_menu:focus{
+        border: 1px solid #F3D1BF;
+    }
+
+    .select_menu:active{
+        border: 1px solid #F3D1BF;
+    }
+
+    .select_item {
+        font-size: 16px;
+        color: #391400A3;
+        padding-left: 16px;
+    }
+}
