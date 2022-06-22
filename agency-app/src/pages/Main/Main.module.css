@@ -87,6 +87,12 @@
     cursor: pointer;
 }
 
+.loader:hover {
+    border: 2px solid #90E149;
+    border-radius: 1px;
+}
+
+
 @media (max-width: 1040px) {
     .card {
         width: 329px;
@@ -123,5 +129,9 @@
         font-size: 16px;
         color: #391400A3;
         padding-left: 16px;
+    }
+
+    .loader {
+        margin: 48px auto;
     }
 }
