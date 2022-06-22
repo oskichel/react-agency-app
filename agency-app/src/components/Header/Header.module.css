@@ -49,3 +49,17 @@
     border: 2px solid #90E149;
     border-radius: 1px;
 }
+
+@media (max-width: 1040px) {
+    .wrap {
+        padding: 10px 0;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+}

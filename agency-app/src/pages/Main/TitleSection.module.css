@@ -25,5 +25,20 @@
     margin: 34px auto 0;
     font-family: 'Epilogue Regular', sans-serif;
     font-size: 16px;
+    line-height: 33px;
     color: #ffffff94;
+}
+
+@media (max-width: 1040px) {
+    .title {
+        width: 202px;
+        margin: 0 auto;
+        font-size: 56px;
+    }
+
+    .text {
+        width: 329px;
+        margin: 22px auto 0;
+        line-height: 31px;
+    }
 }

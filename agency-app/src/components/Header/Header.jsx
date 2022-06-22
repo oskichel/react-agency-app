@@ -10,7 +10,7 @@ function Header() {
     return (
         <div className={st.header}>
             <div className={st.wrap}>
-                <NavLink to={'/'}><img src={logo}></img></NavLink>
+                <NavLink to={'/'} className={st.logo}><img src={logo}></img></NavLink>
                 <nav className={st.navbar}>
                     <NavLink to={'/about'} className={st.menu}>About</NavLink>
                     <NavLink to={'/services'} className={st.menu}>Services</NavLink>
