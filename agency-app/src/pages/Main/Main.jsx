@@ -66,7 +66,7 @@ function Main() {
             </select>
             <div className={st.wrap}>
                 {filtered.slice(0, visible).map((item) => 
-                    <div key={item.id} className={st.card} onKeyDown={handleDeleteKey}>
+                    <div key={item.id} className={st.card} onKeyDown={(e) => handleDeleteKey}>
                         <img src={item.src} alt='portfolio'></img>
                         <div className={st.position}>
                             <button className={st.filter} onClick={() => filteredPortfolio(item.tag)}>{item.tag}</button>
